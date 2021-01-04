@@ -1,0 +1,98 @@
+{
+    "python.pythonPath": "c:\\Users\\Tom\\geo_exploration\\env\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "editor.fontFamily": "Menlo, monospace",
+    // "editor.fontFamily": "'Courier New', monospace",
+
+    // DO NOT LIKE
+    // "editor.fontFamily": "'Ubuntu'",
+    // "editor.fontFamily": "'Ubuntu Mono'",
+    // "editor.fontFamily": "Monaco, monospace",
+    
+    // MAYBE
+    // "editor.fontFamily": "'Courier New', monospace",
+    // "editor.fontFamily": "'Open Sans', monospace",
+    
+    
+    // LIKE
+    "editor.fontFamily": "Menlo, monospace",
+    // "editor.fontFamily": "'Roboto Mono', monospace",
+    
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 12,
+    "editor.tokenColorCustomizations": {
+        // "comments": "#07ffea",
+        "comments": "#9ca2fa",
+        "textMateRules": [{
+            "scope": ["keyword.operator","constant.other","meta.function-call.arguments","variable.parameter"],
+            "settings": {
+                "foreground": "#dfdfdf"
+            }
+        },{
+            "scope": ["meta.attribute.python","meta.function-call.generic"],
+            "settings": {
+                "foreground": "#fa9696",
+                "fontStyle": "bold"
+            }
+        },{
+            "scope": ["keyword","constant.language"],
+            "settings": {
+                "foreground": "#a2f1f2"
+            }
+        },{
+            "scope": ["constant.numeric"],
+            "settings": {
+                "foreground": "#16dfda"
+            }
+        },{
+            "scope": ["support.function.builtin.python","support.type.python"],
+            "settings": {
+                "foreground": "#acfabc",
+                "fontStyle": "bold"
+            }
+        },{
+            "scope": ["meta.fstring.python", "storage.type","string.quoted.single.python","string.interpolated.python","constant.character"],
+            "settings": {
+                "foreground": "#9ca2fa"
+            }
+        },{
+            "scope": "keyword.other.DML.sql",
+            "settings": {
+                "foreground": "#00ffdd"
+                // "foreground": "#00fff2"
+            }
+        },{
+            "scope": "keyword.other.sql",
+            "settings": {
+                // "foreground": "#ffaf8f"
+                // "foreground": "#ff6fa6"
+                "foreground": "#fa9696"
+            }
+        },{
+            "scope": ["string.quoted.single.sql","string.quoted.double.sql"],
+            "settings": {
+                "foreground": "#e2c0c0"
+            }
+        },{
+            "scope": ["string.quoted.multi.python","variable.parameter"],
+            "settings": {
+                "foreground": "#e2c0c0"
+            }
+        },{
+            "scope": ["comment.line.double-dash.sql","punctuation.definition.comment.sql"],
+            "settings": {
+                "foreground": "#9656b4"
+            }
+        }]
+    },
+    // "workbench.colorTheme": "Monokai",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBorder": "#ffffff",
+        "editor.background": "#202022"
+    //     "editor.lineHighlightBackground": "#a76d76"
+     },
+     "jupyter.ignoreVscodeTheme": false
+}
