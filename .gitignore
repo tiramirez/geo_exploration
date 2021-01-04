@@ -1,0 +1,8 @@
+# ZIP files
+
+*.zip 
+
+
+# env
+
+./env
