@@ -16,6 +16,8 @@ Any input, correction, or idea is welcome.
 * https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.html
 
 
+## Set Environment
+Follow the code bellow
 ```
 conda create -p ./env
 conda activate ./env
@@ -37,7 +39,9 @@ conda inestall Shapely
 ```
 
 * Error: Kernel is dead ([link](https://stackoverflow.com/questions/49326164/jupyter-notebook-dead-kernel))
-````
+```
 conda install -c conda-forge jupyterlab
 conda install -c anaconda ipython
 ```
+
+* Error with GDAL ([link](https://stackoverflow.com/questions/54734667/error-installing-geopandas-a-gdal-api-version-must-be-specified-in-anaconda))
