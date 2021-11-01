@@ -9,8 +9,8 @@ Any input, correction, or idea is welcome.
 | Name | Description | Status | Date |
 |-|-|-|-|
 |Boston.ipynb| Learn to work with US Census Data | WIP | 2021-10-29 |
-|osm.ipynb | Learn to use OSM library | Not started |  |
-|pltal.ipynb| Automate the calcualation of accessibility to Public Transit | Not started | | 
+|osm | Learn to use OSM library | Not started |  |
+|pltal| Automatic calcualation of accessibility to Public Transit | Not started | | 
 
 ## Census Data
 * https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.html
