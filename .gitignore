@@ -9,6 +9,6 @@ WIP/
 data/
 
 ## ZIP files
-*.zip 
+# *.zip 
 ## images from data
 *.jpg
