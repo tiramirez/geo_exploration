@@ -3,11 +3,27 @@
 # import osmnx as ox
 import pandas as pd
 # import numpy as np
-import geopandas as gpd
-from shapely.geometry import Point
+# import geopandas as gpd
+# from shapely.geometry import Point
+import matplotlib.pyplot as plt
 
-# import matplotlib.pyplot as plot_graph
+# importing required modules
+from zipfile import ZipFile
 
+## Down load data from MBTA
+url = "https://cdn.mbta.com/MBTA_GTFS.zip"
+r = requests.get(url, allow_redirects=True)
+open('./MBTA_GTFS.zip', 'wb').write(r.content)
+
+
+file_name = "MBTA_GTFS.zip"
+gtfs = dict()
+# opening the zip file in READ mode
+with ZipFile(file_name, 'r') as zip:
+    
+    for info in zip.infolist():
+        gtfs[info[:-4]]=pd.read_csv(info.filename)
+        print(info.filename)
 # %%
 G = ox.graph_from_place('Manhattan, New York, USA', network_type='drive')
 # fig, ax = ox.plot_graph(G)
